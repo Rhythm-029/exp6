@@ -12,7 +12,7 @@ def display_info():
 @app.route('/hobbies')
 def display_hobbies():
     # Display hobbies
-    name = "Prathamesh Bhandare"
+    name = "Rhythm Singhal"
     hobbies = ["Reading", "Coding", "Traveling", "Photography"]
     hobbies_list = "<br>".join(hobbies)
     return f"Name: {name}<br>Hobbies:<br>{hobbies_list}"
